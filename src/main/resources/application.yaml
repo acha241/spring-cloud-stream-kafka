@@ -5,9 +5,9 @@ spring:
         binder:
           brokers: localhost:9092
       bindings:
-        greetings-in:
+        input:
           destination: test
           contentType: application/json
-        greetings-out:
+        output:
           destination: test
           contentType: application/json
